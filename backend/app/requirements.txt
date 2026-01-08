@@ -1,10 +1,58 @@
-fastapi
-uvicorn
-pydantic
-pytest
-httpx
-python-dotenv
-openai
-azure-search-documents
-msal
-pytest-asyncio
+# ========================================
+# ContentForge Backend Dependencies
+# ========================================
+# Production-ready Python dependencies for enterprise AI content generation
+
+# ========================================
+# Core Framework
+# ========================================
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# ========================================
+# Azure Services
+# ========================================
+# Azure OpenAI
+openai==1.10.0
+
+# Azure AI Search
+azure-search-documents==11.4.0
+azure-core==1.29.7
+
+# Microsoft Graph API
+msal==1.26.0
+requests==2.31.0
+
+# ========================================
+# Utilities
+# ========================================
+python-dotenv==1.0.0
+tenacity==8.2.3  # Retry logic
+
+# ========================================
+# Testing
+# ========================================
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0  # For TestClient
+
+# ========================================
+# Development Tools
+# ========================================
+black==23.12.1  # Code formatting
+isort==5.13.2   # Import sorting
+flake8==7.0.0   # Linting
+mypy==1.8.0     # Type checking
+
+# ========================================
+# Optional: Enhanced Features
+# ========================================
+# Uncomment if needed:
+# redis==5.0.1  # For caching
+# sqlalchemy==2.0.25  # For database
+# alembic==1.13.1  # For migrations
+# celery==5.3.4  # For background tasks
+
