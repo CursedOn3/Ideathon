@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+pytest
+httpx
+python-dotenv
+openai
+azure-search-documents
+msal
+pytest-asyncio
