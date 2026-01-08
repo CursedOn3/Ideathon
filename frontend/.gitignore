@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Vite / build output
+dist/
+build/
+out/
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local env overrides
+.env.local
+.env.*.local
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Caches
+.cache/
+.parcel-cache/
+.turbo/
+coverage/
+**/.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+/.pnp.js
+/.pnp.cjs
+/.pnp.*
+.sass-cache/
+public/build/

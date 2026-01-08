@@ -207,3 +207,27 @@ marimo/_lsp/
 __marimo__/
 
 idea.yaml
+
+# Frontend (Vite) project ignores
+# Ignore node modules and build outputs for the frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/out/
+/frontend/.vite/
+
+# Frontend environment files
+/frontend/.env
+/frontend/.env.*
+!/frontend/.env.example
+/frontend/.env.local
+
+# Frontend lockfiles
+/frontend/package-lock.json
+/frontend/yarn.lock
+/frontend/pnpm-lock.yaml
+/frontend/bun.lockb
+
+# Frontend caches, logs, misc
+/frontend/.cache/
+/frontend/public/build/

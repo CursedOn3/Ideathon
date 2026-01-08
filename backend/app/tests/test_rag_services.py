@@ -1,4 +1,4 @@
-from app.services.rag_service import build_context
+from app.services.rag_services import build_context
 
 def test_build_context():
     context = build_context("Q1")
